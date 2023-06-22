@@ -32,7 +32,7 @@ typedef struct stack_s
  */
 typedef struct bus_s
 {
-i	char *arg;
+	char *arg;
 	FILE *file;
 	char *content;
 	int lifi;
@@ -44,7 +44,7 @@ extern bus_t bus;
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO
+ * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
 {
